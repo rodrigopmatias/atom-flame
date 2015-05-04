@@ -1,0 +1,11 @@
+{
+  "name": "matias-1337-theme",
+  "theme": "syntax",
+  "version": "0.1.4",
+  "description": "Syntax highligth based in http://colorsublime.com/theme/download/34440",
+  "repository": "https://github.com/rodrigopmatias/atom-1337-theme.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
