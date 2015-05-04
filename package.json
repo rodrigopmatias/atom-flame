@@ -1,9 +1,9 @@
 {
-  "name": "1337-theme",
+  "name": "flame",
   "theme": "syntax",
   "version": "0.1.6",
   "description": "Syntax highligth based in http://colorsublime.com/theme/download/34440",
-  "repository": "https://github.com/rodrigopmatias/atom-1337-theme.git",
+  "repository": "https://github.com/rodrigopmatias/atom-flame.git",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"

@@ -2,7 +2,7 @@
 1 verbose cli [ '/opt/atom/resources/app/apm/bin/node',
 1 verbose cli   '/opt/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js',
 1 verbose cli   'version',
-1 verbose cli   '0.1.5',
+1 verbose cli   '0.1.6',
 1 verbose cli   '-m',
 1 verbose cli   'Prepare %s release' ]
 2 info using npm@2.5.1
@@ -14,7 +14,7 @@
 4 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:108:15)
 5 verbose cwd /home/rodrigomatias/.atom/packages/1337-theme
 6 error Linux 3.16.0-34-generic
-7 error argv "/opt/atom/resources/app/apm/bin/node" "/opt/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "0.1.5" "-m" "Prepare %s release"
+7 error argv "/opt/atom/resources/app/apm/bin/node" "/opt/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "0.1.6" "-m" "Prepare %s release"
 8 error node v0.10.35
 9 error npm  v2.5.1
 10 error Version not changed
