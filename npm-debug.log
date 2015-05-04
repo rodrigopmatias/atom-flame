@@ -1,59 +1,23 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/nodejs',
-1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'view',
-1 verbose cli   'atom-1337-theme',
-1 verbose cli   'version' ]
-2 info using npm@1.4.21
-3 info using node@v0.10.25
-4 verbose request where is /atom-1337-theme
-5 verbose request registry https://registry.npmjs.org/
-6 verbose request id 980e6b445293391a
-7 verbose url raw /atom-1337-theme
-8 verbose url resolving [ 'https://registry.npmjs.org/', './atom-1337-theme' ]
-9 verbose url resolved https://registry.npmjs.org/atom-1337-theme
-10 verbose request where is https://registry.npmjs.org/atom-1337-theme
-11 info trying registry request attempt 1 at 08:57:54
-12 http GET https://registry.npmjs.org/atom-1337-theme
-13 http 404 https://registry.npmjs.org/atom-1337-theme
-14 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-14 verbose headers   'content-type': 'application/json',
-14 verbose headers   'cache-control': 'max-age=0',
-14 verbose headers   'content-length': '51',
-14 verbose headers   'accept-ranges': 'bytes',
-14 verbose headers   date: 'Mon, 04 May 2015 11:57:55 GMT',
-14 verbose headers   via: '1.1 varnish',
-14 verbose headers   age: '0',
-14 verbose headers   connection: 'keep-alive',
-14 verbose headers   'x-served-by': 'cache-iad2140-IAD',
-14 verbose headers   'x-cache': 'MISS',
-14 verbose headers   'x-cache-hits': '0',
-14 verbose headers   'x-timer': 'S1430740675.618019,VS0,VE16' }
-15 silly registry.get cb [ 404,
-15 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-15 silly registry.get     'content-type': 'application/json',
-15 silly registry.get     'cache-control': 'max-age=0',
-15 silly registry.get     'content-length': '51',
-15 silly registry.get     'accept-ranges': 'bytes',
-15 silly registry.get     date: 'Mon, 04 May 2015 11:57:55 GMT',
-15 silly registry.get     via: '1.1 varnish',
-15 silly registry.get     age: '0',
-15 silly registry.get     connection: 'keep-alive',
-15 silly registry.get     'x-served-by': 'cache-iad2140-IAD',
-15 silly registry.get     'x-cache': 'MISS',
-15 silly registry.get     'x-cache-hits': '0',
-15 silly registry.get     'x-timer': 'S1430740675.618019,VS0,VE16' } ]
-16 error 404 404 Not Found: atom-1337-theme
-16 error 404
-16 error 404 'atom-1337-theme' is not in the npm registry.
-16 error 404 You should bug the author to publish it
-16 error 404
-16 error 404 Note that you can also install from a
-16 error 404 tarball, folder, or http url, or git url.
-17 error System Linux 3.16.0-34-generic
-18 error command "/usr/bin/nodejs" "/usr/bin/npm" "view" "atom-1337-theme" "version"
-19 error cwd /home/rodrigomatias/.atom/packages/1337-theme
-20 error node -v v0.10.25
-21 error npm -v 1.4.21
-22 error code E404
-23 verbose exit [ 1, true ]
+1 verbose cli [ '/opt/atom/resources/app/apm/bin/node',
+1 verbose cli   '/opt/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   '0.1.5',
+1 verbose cli   '-m',
+1 verbose cli   'Prepare %s release' ]
+2 info using npm@2.5.1
+3 info using node@v0.10.35
+4 verbose stack Error: Version not changed
+4 verbose stack     at /opt/atom/resources/app/apm/node_modules/npm/lib/version.js:52:49
+4 verbose stack     at evalmachine.<anonymous>:272:14
+4 verbose stack     at /opt/atom/resources/app/apm/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+4 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:108:15)
+5 verbose cwd /home/rodrigomatias/.atom/packages/1337-theme
+6 error Linux 3.16.0-34-generic
+7 error argv "/opt/atom/resources/app/apm/bin/node" "/opt/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "0.1.5" "-m" "Prepare %s release"
+8 error node v0.10.35
+9 error npm  v2.5.1
+10 error Version not changed
+11 error If you need help, you may report this error at:
+11 error     <http://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
