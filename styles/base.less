@@ -1,5 +1,13 @@
 @import "syntax-variables";
 
+.settings-view input[type="checkbox"]:checked {
+    background-color: rgb(255, 82, 82);;
+}
+
+.settings-view .form-control /deep/ option {
+    color: white !important;
+}
+
 atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
