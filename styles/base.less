@@ -1,11 +1,30 @@
 @import "syntax-variables";
 
+@themeColor: #ff5e5e;
+
 .settings-view input[type="checkbox"]:checked {
-    background-color: rgb(255, 82, 82);;
+    background-color: @themeColor;
+}
+
+atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
+    border-color: @themeColor !important;
+    box-shadow: 0 0 0 1px @themeColor !important;
 }
 
 .settings-view .form-control /deep/ option {
     color: white !important;
+}
+
+.tab-bar .tab::before {
+    background-color: @themeColor !important;
+}
+
+.tab-bar .tab.modified .close-icon {
+    color: @themeColor !important;
+}
+
+.tree-view::before {
+    background-color: @themeColor !important;
 }
 
 atom-text-editor, :host {
