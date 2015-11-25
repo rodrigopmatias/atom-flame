@@ -1,7 +1,7 @@
 {
   "name": "flame",
   "theme": "syntax",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Syntax highligth based in http://colorsublime.com/theme/download/34440",
   "repository": "https://github.com/rodrigopmatias/atom-flame.git",
   "license": "MIT",
